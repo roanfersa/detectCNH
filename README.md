@@ -1,7 +1,6 @@
                                        INTRODUÇÃO | OBJETIVO DO detectCNH | TECNOLOGIAS E DOCUMENTAÇÕES | INSTRUÇÕES | RESULTADO
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/45fe079b-fd18-4b33-9c8c-690c39829601/67197d1a-ac99-437b-98a8-f9b94f2ccbe5/Untitled.png)
-
+![Fraude](images/Fraude.png)
 # Introdução
 
 ---
