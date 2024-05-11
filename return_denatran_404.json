@@ -1,0 +1,4 @@
+{
+    "returnCode": 404,
+    "message": "Condutor não encontrado na base de dados do Denatran." 
+  }
