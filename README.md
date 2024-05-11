@@ -3,7 +3,7 @@
   <a href="#objetivo-do-detectcnh">Objetivo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#tecnologias-utilizadas-e-suas-documentações">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#instruções">Instruções</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#resultado">Resultado</a>
+  <a href="resultados-da-verificação-de-fraude-em-cnh">Resultado</a>
 </p>
 
 <p align="center">
