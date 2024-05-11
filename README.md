@@ -1,71 +1,53 @@
-INTRODUÇÃO | OBJETIVO DO detectCNH | TECNOLOGIAS E DOCUMENTAÇÕES | INSTRUÇÕES | RESULTADO
+<p align="center">
+  <a href="#introdução">Introdução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#objetivo-do-detectcnh">Objetivo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#tecnologias-utilizadas-e-suas-documentações">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#instruções">Instruções</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#resultado">Resultado</a>
+</p>
 
-  ![Fraude](photos/Fraude.png)
+<p align="center">
+  <img alt="Fraude" width="650px" src="./photos/Fraude.png"/> 
+</p>
+
 # Introdução
 
----
-
-O projeto detectCNH foi pensado para COMBATER A FRAUDE DE DOCUMENTOS no Brasil. A falsificação de documentos é um problema sério no país abrindo margem para prática de uma série de infrações bastante prejudiciais a sociedade, sendo a Carteira Nacional de Habilitação estando entre os documentos mais fraudados do país. Fiz esse projeto em resposta as notícias recentes em relação aos resgates que estão ocorrendo no Rio Grande do Sul, onde muitas pessoas estão se aproveitando para aplicar uma série de golpes. O detectCNH valida a autencidade das carteiras de motorista utilizando o Gemini AI do Google em conjunto com a API do Governo DENATRAN, onde o Gemini realiza a análise das imagens dos CNHs, a verifica nos bancos de dados do Governo Federal informações sobre o Condutor. Essa abordagem não é só a democratização ao acesso de tecnologia de ponta, é principalmente a esperança de que a falsificação de documentos deixe de ser um problema no nosso país. 
+O projeto detectCNH foi pensado para COMBATER A FRAUDE DE DOCUMENTOS no Brasil. A falsificação de documentos é um problema sério no país, abrindo margem para práticas de uma série de infrações bastante prejudiciais à sociedade. A Carteira Nacional de Habilitação está entre os documentos mais fraudados do país. Esse projeto foi desenvolvido em resposta às notícias recentes sobre resgates que estão ocorrendo no Rio Grande do Sul, onde muitas pessoas estão se aproveitando para aplicar uma série de golpes. O detectCNH valida a autenticidade das carteiras de motorista utilizando o Gemini AI do Google em conjunto com a API do Governo DENATRAN, realizando a análise das imagens das CNHs e verificando informações sobre o condutor nos bancos de dados do Governo Federal. Essa abordagem representa não só a democratização do acesso à tecnologia de ponta, mas principalmente a esperança de que a falsificação de documentos deixe de ser um problema em nosso país.
 
 # Objetivo do detectCNH
 
----
-
-O programa tem como objetivo verificar a autenticidade de uma Carteira Nacional de Habilitação (CNH) utilizando uma combinação de processamento de imagem, Google API Gemini, e Dados do Governo Federal.
+O programa tem como objetivo verificar a autenticidade de uma Carteira Nacional de Habilitação (CNH) utilizando uma combinação de processamento de imagem, Google API Gemini, e dados do Governo Federal.
 
 **Funcionamento:**
 
-1. **Coleta de dados:** O programa solicita ao usuário seu nome e CPF, e em seguida, pede para o usuário fazer upload de um arquivo contendo a imagem da CNH.
-2. **Extração de dados da CNH:** O programa utiliza o modelo Gemini para analisar a imagem da CNH e extrair informações importantes, como CPF e número de registro.
-3. **Validação com o Denatran:** O programa envia os dados extraídos da CNH para a API do Denatran para verificar sua autenticidade.
-4. **Apresentação dos resultados e Geração de resumo:** Se a CNH for válida, o programa usa o Gemini para gerar um resumo informativo sobre os dados do condutor obtidos na API do Detran.
+1. **Coleta de dados:** O programa solicita ao usuário seu nome e CPF, e em seguida, pede para o usuário fazer upload de um arquivo contendo a imagem da CNH.
+2. **Extração de dados da CNH:** O programa utiliza o modelo Gemini para analisar a imagem da CNH e extrair informações importantes, como CPF e número de registro.
+3. **Validação com o Denatran:** O programa envia os dados extraídos da CNH para a API do Denatran para verificar sua autenticidade.
+4. **Apresentação dos resultados e geração de resumo:** Se a CNH for válida, o programa usa o Gemini para gerar um resumo informativo sobre os dados do condutor obtidos na API do Detran.
 
-O detectCNH valida a autencidade das carteiras de motorista utilizando o Gemini AI do Google em conjunto com a API do Governo DENATRAN, onde o Gemini realiza a análise das imagens dos CNHs, a verifica nos bancos de dados do Governo Federal informações sobre o Condutor.
+# Tecnologias utilizadas e suas documentações
 
-# Tecnologias utilizadas e suas documentações:
-
----
-
-1. **Linguagem de programação: Python**
-    - Documentação: **https://docs.python.org/3/**
-2. **Bibliotecas Python:**
-    - **pathlib**: Manipulação de arquivos e diretórios.
-        - Documentação: **https://docs.python.org/3/library/pathlib.html**
-    - **re**: Expressões regulares para encontrar padrões no texto.
-        - Documentação: **https://docs.python.org/3/library/re.html**
-    - **textwrap**: Formatação de texto, incluindo identação.
-        - Documentação: **https://docs.python.org/3/library/textwrap.html**
-    - **requests**: Fazer requisições HTTP para APIs.
-        - Documentação: **https://docs.python-requests.org/en/latest/**
-    - **Pillow (PIL)**: Processamento de imagens.
-        - Documentação: **https://pillow.readthedocs.io/en/stable/**
-    - **json**: Lidar com dados no formato JSON.
-        - Documentação: **https://docs.python.org/3/library/json.html**
-    - **PyPDF2**: Manipulação de arquivos PDF.
-        - Documentação: **https://pypdf2.readthedocs.io/en/stable/**
-    - **pdf2image**: Conversão de PDF para imagens.
-        - Documentação: **https://pypi.org/project/pdf2image/**
-    - **IPython.display**: Exibir conteúdo formatado (Markdown) no Jupyter Notebook.
-        - Documentação: **https://ipython.readthedocs.io/en/stable/api/generated/IPython.display.html**
-    - **google.colab**: Funções específicas para o Google Colaboratory.
-        - Documentação: **https://colab.research.google.com/**
-    - **google.generativeai**: Interação com a API do Google Gemini para geração de texto e visão computacional.
-        - Documentação: https://ai.google.dev/gemini-api/docs
+1. **Linguagem de programação:** [Python](https://docs.python.org/3/)
+2. **Bibliotecas Python:**
+   - [pathlib](https://docs.python.org/3/library/pathlib.html): Manipulação de arquivos e diretórios.
+   - [re](https://docs.python.org/3/library/re.html): Expressões regulares para encontrar padrões no texto.
+   - [textwrap](https://docs.python.org/3/library/textwrap.html): Formatação de texto, incluindo identação.
+   - [requests](https://docs.python-requests.org/en/latest/): Fazer requisições HTTP para APIs.
+   - [Pillow (PIL)](https://pillow.readthedocs.io/en/stable/): Processamento de imagens.
+   - [json](https://docs.python.org/3/library/json.html): Lidar com dados no formato JSON.
+   - [PyPDF2](https://pypdf2.readthedocs.io/en/stable/): Manipulação de arquivos PDF.
+   - [pdf2image](https://pypi.org/project/pdf2image/): Conversão de PDF para imagens.
+   - [IPython.display](https://ipython.readthedocs.io/en/stable/api/generated/IPython.display.html): Exibir conteúdo formatado (Markdown) no Jupyter Notebook.
+   - [google.colab](https://colab.research.google.com/): Funções específicas para o Google Colaboratory.
+   - [google.generativeai](https://ai.google.dev/gemini-api/docs): Interação com a API do Google Gemini para geração de texto e visão computacional.
 3. **Ferramentas:**
-    - **Google Colaboratory**: Ambiente online para desenvolvimento em Python.
-        - Documentação: **https://colab.research.google.com/**
-    - **GitHub**: Plataforma para hospedagem e versionamento de código.
-        - Documentação: **https://docs.github.com/**
-    - **API do DENATRAN**: API pública do Departamento Nacional de Trânsito para consulta de dados de condutores.
-        - Documentação: https://www.gov.br/conecta/catalogo/apis/wsdenatran
-4. **Modelos de IA:**
-    - **Google Gemini**: Modelo de IA generativa capaz de processar texto e imagens.
+   - [Google Colaboratory](https://colab.research.google.com/): Ambiente online para desenvolvimento em Python.
+   - [GitHub](https://docs.github.com/): Plataforma para hospedagem e versionamento de código.
+   - [API do DENATRAN](https://www.gov.br/conecta/catalogo/apis/wsdenatran): API pública do Departamento Nacional de Trânsito para consulta de dados de condutores.
 
-# Instruções:
+# Instruções
 
-## **Para saber sobre a API do DENATRAN**
-
-Para usar a API do DENATRAN substitua no código “CONFIGURAÇÃO DA API DO DENATRAN**”** as seguintes credenciais:
+Para saber mais sobre a API do DENATRAN, consulte a documentação no link disponível e substitua as credenciais necessárias no código da "CONFIGURAÇÃO DA API DO DENATRAN".
 
 ```
 # 1. O caminho do seu certificado digital
@@ -99,75 +81,63 @@ certificado = ('caminho_para_certificado.crt', 'caminho_para_chave_privada.key')
 # 4. Ajuste o path do arquivo para ""/content/return_denatran_200.json" ou "/content/return_denatran_404.json
 ```
 
-Cada arquivo representa uma situação específica de resposta HTTP que poderia ser retornada pela API ao fazer uma requisição.
+Cada arquivo JSON representa uma possível resposta da API ao fazer uma requisição, simulando diferentes cenários:
 
-1. **O que é o return_denatran_200.json?**
-    - Este arquivo contém o retorno de uma requisição bem-sucedida (**`HTTP 200 OK`**) à API do DENATRAN. O código **`200`** indica que a requisição foi processada com sucesso pela API e os dados solicitados estão sendo retornados.
-    - As informações contidas neste arquivo foram **modificadas** para preservar a segurança do proprietário, o que sugere que embora os dados sejam baseados em informações reais, eles foram alterados para proteger a privacidade e a segurança dos dados pessoais.
-2. **O que é o return_denatran_404.json?**
-    - Este arquivo contém a resposta de uma requisição que resultou em um erro **`HTTP 404 Not Found`** pela API do DENATRAN. O código **`404`** indica que a informação solicitada não foi encontrada na base de dados do DENATRAN.
-    - No contexto que você forneceu, é mencionado que este arquivo está relacionado às imagens de exemplo "cnh_falsa_pinterest.jpg" e "cnh_falsa_pinterest.pdf", o que pode sugerir que a requisição tentou verificar a autenticidade ou buscar informações sobre uma CNH que não existe ou não é válida dentro do sistema do DENATRAN.
+1. **return_denatran_200.json - Resposta de Sucesso**
+   - **Descrição:** Este arquivo simula uma resposta bem-sucedida (`HTTP 200 OK`) da API do DENATRAN, indicando que a requisição foi processada com sucesso e os dados solicitados foram retornados.
+   - **Segurança:** As informações neste arquivo foram alteradas para preservar a segurança e privacidade do proprietário dos dados.
 
-Legenda de Códigos de Retorno:
+2. **return_denatran_404.json - Resposta de Erro**
+   - **Descrição:** Este arquivo simula uma resposta de erro (`HTTP 404 Not Found`) da API do DENATRAN, indicando que os dados solicitados não foram encontrados na base de dados.
+   - **Contexto:** Este arquivo está relacionado às imagens "cnh_falsa_pinterest.jpg" e "cnh_falsa_pinterest.pdf", usadas para testar a validação de CNHs inexistentes ou inválidas no sistema do DENATRAN.
 
-![Fraude](photos/codigoretorno.png)
-# Resultado de Verificação de Fraude em CNH.
+### Legenda de Códigos de Retorno
 
-## Iniciando o detectCNH
+![Códigos de Retorno](photos/codigoretorno.png)
 
----
+## Resultados da Verificação de Fraude em CNH
 
-**DetectCNH solicita:** 
+### Processo de Verificação
 
-Por favor, forneça as informações solicitadas abaixo para realizar a validação de autenticidade da CNH.
-Digite seu nome: input[    ]
-Digite seu CPF no formato XXX.XXX.XXX-XX: input [   ]
+**Início do Processo:**
 
-**Saída:**
+Por favor, forneça as informações solicitadas abaixo para iniciar a validação da autenticidade da CNH:
+- Nome: `Digite seu nome`
+- CPF: `Digite seu CPF no formato XXX.XXX.XXX-XX`
 
-![Fraude](photos/detect01.png)
----
+**Resultado Inicial:**
 
-## Fazendo o Upload da Carteira CNH (Imagem ou PDF)
+![Resultado Inicial da Verificação](photos/detect01.png)
 
----
+### Upload da CNH
 
-**DetectCNH solicita:** 
+**Solicitação de Upload:**
 
-![Fraude](photos/detecctupload.png)
-**Saída:**
+![Solicitação de Upload](photos/detecctupload.png)
 
-![Fraude](photos/detectupload_ini.png)
+**Saída do Processo:**
 
-**Atualização de Saída:**
+- **Início:** ![Upload Inicial](photos/detectupload_ini.png)
+- **Conclusão:** ![Upload Concluído](photos/detectupload_fini.png)
 
-![Fraude](photos/detectupload_fini.png)
+### Avaliação da Autenticidade da CNH
 
----
+#### CNH Não Autêntica
 
-## Validação da CNH
+- **Fonte:** CNH fictícia do Pinterest [Visualizar CNH](https://br.pinterest.com/pin/700169073344297072/)
+- **Arquivos Associados:** JPEG e PDF disponíveis no repositório.
 
----
+**Extração e Validação:**
 
-### - CASO NÃO OK
+- **Dados Extraídos:** ![Dados Extraídos](photos/detectextoff.png)
+- **Resumo do Condutor:** ![Resumo Não Válido](photos/detectvalidresumoff.png)
 
-- Foi utilizado uma CNH fictícia encontrada no pinterest → [Link da CNH](https://br.pinterest.com/pin/700169073344297072/)
-- O arquivo.jpeg e pdf da CNH pode ser encontrada nesse repositório.
+#### CNH Autêntica
 
-**DetectCNH extrai os dados:**
+- **Fonte:** CNH real com dados modificados para segurança.
+- **Localização do Arquivo:** `return_denatran_200.json` no repositório.
 
-![Fraude](photos/detectextoff.png)
-**DetectCNH valida e gera um resumo do condutor:**
+**Extração e Validação:**
 
-![Fraude](photos/detectvalidresumoff.png)
-### - CASO OK
-
-- Aqui foi utilizada uma CNH real, porém os dados da .json foram modificados para manter a segurança do proprietário da CNH.
-- O arquivo.json de resposta a requisição http feita a API do DENATRAN pode ser encontrada nesse repositório com o nome “**return_denatran_200.json”**
-
-**DetectCNH extrai os dados:**
-
-![Fraude](photos/detectexok.png)
-**DetectCNH valida e gera um resumo do condutor:**
-
-![Fraude](photos/detectvalidresum.png)
+- **Dados Extraídos:** ![Dados Autênticos](photos/detectexok.png)
+- **Resumo do Condutor:** ![Resumo Válido](photos/detectvalidresum.png)
