@@ -134,13 +134,15 @@ Digite seu CPF no formato XXX.XXX.XXX-XX: input [   ]
 
 **DetectCNH solicita:** 
 
-![Fraude](photos/detecct02.png)
+![Fraude](photos/detecctupload.png)
 **Saída:**
 
-![Fraude](photos/detect04.png)
+![Fraude](photos/detectupload_ini.png)
+
 **Atualização de Saída:**
 
- ![Fraude](photos/detect05.png)
+![Fraude](photos/detectupload_fini.png)
+
 ---
 
 ## Validação da CNH
@@ -154,10 +156,10 @@ Digite seu CPF no formato XXX.XXX.XXX-XX: input [   ]
 
 **DetectCNH extrai os dados:**
 
-![Fraude](photos/detect06.png)
+![Fraude](photos/detectextoff.png)
 **DetectCNH valida e gera um resumo do condutor:**
 
-![Fraude](photos/detect07.png)
+![Fraude](photos/detectvalidresumoff.png)
 ### - CASO OK
 
 - Aqui foi utilizada uma CNH real, porém os dados da .json foram modificados para manter a segurança do proprietário da CNH.
@@ -165,8 +167,7 @@ Digite seu CPF no formato XXX.XXX.XXX-XX: input [   ]
 
 **DetectCNH extrai os dados:**
 
-![Screenshot 2024-05-11 at 09.51.57.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/45fe079b-fd18-4b33-9c8c-690c39829601/520385a5-b726-4692-83ad-155e1ca2d705/Screenshot_2024-05-11_at_09.51.57.png)
-
+![Fraude](photos/detectexok.png)
 **DetectCNH valida e gera um resumo do condutor:**
 
-![Screenshot 2024-05-11 at 09.42.11.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/45fe079b-fd18-4b33-9c8c-690c39829601/c6d55564-f363-4374-a6d5-1e147351c7fc/Screenshot_2024-05-11_at_09.42.11.png)
+![Fraude](photos/detectvalidresum.png)
