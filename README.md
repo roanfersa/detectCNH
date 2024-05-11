@@ -95,9 +95,14 @@ Cada arquivo JSON representa uma possível resposta da API ao fazer uma requisi�
 
 ![Códigos de Retorno](photos/codigoretorno.png)
 
-## Resultados da Verificação de Fraude em CNH
+---
 
-### Processo de Verificação
+
+# Resultados da Verificação de Fraude em CNH
+
+## Processo de Verificação
+
+
 
 **Início do Processo:**
 
@@ -107,22 +112,22 @@ Por favor, forneça as informações solicitadas abaixo para iniciar a validaç�
 
 **Resultado Inicial:**
 
-![Resultado Inicial da Verificação](photos/detect01.png)
+![Resultado Inicial da Verificação](photos/detectcpf.png)
 
 ### Upload da CNH
 
 **Solicitação de Upload:**
 
-![Solicitação de Upload](photos/detecctupload.png)
+![Solicitação de Upload](photos/detectupload.png)
 
 **Saída do Processo:**
 
 - **Início:** ![Upload Inicial](photos/detectupload_ini.png)
 - **Conclusão:** ![Upload Concluído](photos/detectupload_fini.png)
 
-### Avaliação da Autenticidade da CNH
+## Avaliação da Autenticidade da CNH
 
-#### CNH Não Autêntica
+### CNH Não Autêntica
 
 - **Fonte:** CNH fictícia do Pinterest [Visualizar CNH](https://br.pinterest.com/pin/700169073344297072/)
 - **Arquivos Associados:** JPEG e PDF disponíveis no repositório.
@@ -132,12 +137,15 @@ Por favor, forneça as informações solicitadas abaixo para iniciar a validaç�
 - **Dados Extraídos:** ![Dados Extraídos](photos/detectextoff.png)
 - **Resumo do Condutor:** ![Resumo Não Válido](photos/detectvalidresumoff.png)
 
-#### CNH Autêntica
+### CNH Autêntica
 
-- **Fonte:** CNH real com dados modificados para segurança.
+- **Fonte:** CNH real com dados modificados para segurança do proprietário.
 - **Localização do Arquivo:** `return_denatran_200.json` no repositório.
 
 **Extração e Validação:**
 
 - **Dados Extraídos:** ![Dados Autênticos](photos/detectexok.png)
-- **Resumo do Condutor:** ![Resumo Válido](photos/detectvalidresum.png)
+
+---
+
+- **Resumo do Condutor:** ![Resumo Válido](photos/detectvaleresum.png)
