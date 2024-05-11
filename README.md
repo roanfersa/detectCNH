@@ -1,6 +1,6 @@
                                        INTRODUÇÃO | OBJETIVO DO detectCNH | TECNOLOGIAS E DOCUMENTAÇÕES | INSTRUÇÕES | RESULTADO
 
-                                                                                        ![Fraude](photos/Fraude.png)
+  ![Fraude](photos/Fraude.png)
 # Introdução
 
 ---
@@ -110,7 +110,7 @@ Cada arquivo representa uma situação específica de resposta HTTP que poderia 
 
 Legenda de Códigos de Retorno:
 
-                                                                                                  ![Fraude](photos/codigoretorno.png)
+![Fraude](photos/codigoretorno.png)
 # Resultado de Verificação de Fraude em CNH.
 
 ## Iniciando o detectCNH
@@ -125,7 +125,7 @@ Digite seu CPF no formato XXX.XXX.XXX-XX: input [   ]
 
 **Saída:**
 
-                                                                                                        ![Fraude](photos/detect01.png)
+![Fraude](photos/detect01.png)
 ---
 
 ## Fazendo o Upload da Carteira CNH (Imagem ou PDF)
@@ -134,13 +134,13 @@ Digite seu CPF no formato XXX.XXX.XXX-XX: input [   ]
 
 **DetectCNH solicita:** 
 
-                                                                                                          ![Fraude](photos/detecct02.png)
+![Fraude](photos/detecct02.png)
 **Saída:**
 
-                                                                                              ![Fraude](photos/detect04.png)
+![Fraude](photos/detect04.png)
 **Atualização de Saída:**
 
-                                                                                                                    ![Fraude](photos/detect05.png)
+ ![Fraude](photos/detect05.png)
 ---
 
 ## Validação da CNH
