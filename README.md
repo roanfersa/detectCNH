@@ -100,7 +100,7 @@ Cada arquivo JSON representa uma possível resposta da API ao fazer uma requisi�
 
 # Resultados da Verificação de Fraude em CNH
 
-## Processo de Verificação
+## Processo de Verificação de Usuário
 
 
 
