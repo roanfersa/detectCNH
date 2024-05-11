@@ -1,6 +1,6 @@
                                        INTRODUÇÃO | OBJETIVO DO detectCNH | TECNOLOGIAS E DOCUMENTAÇÕES | INSTRUÇÕES | RESULTADO
 
-Fraude.png
+![Fraude](images/Fraude.png)
 # Introdução
 
 ---
