@@ -1,6 +1,6 @@
                                        INTRODUÇÃO | OBJETIVO DO detectCNH | TECNOLOGIAS E DOCUMENTAÇÕES | INSTRUÇÕES | RESULTADO
 
-![Fraude](photos/Fraude.png)
+                                                                                        ![Fraude](photos/Fraude.png)
 # Introdução
 
 ---
@@ -110,8 +110,7 @@ Cada arquivo representa uma situação específica de resposta HTTP que poderia 
 
 Legenda de Códigos de Retorno:
 
-![Screenshot 2024-05-11 at 09.14.05.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/45fe079b-fd18-4b33-9c8c-690c39829601/faa8cbaa-c47b-405f-8805-aa5c5180b6ba/Screenshot_2024-05-11_at_09.14.05.png)
-
+                                                                                                  ![Fraude](photos/codigoretorno.png)
 # Resultado de Verificação de Fraude em CNH.
 
 ## Iniciando o detectCNH
@@ -126,8 +125,7 @@ Digite seu CPF no formato XXX.XXX.XXX-XX: input [   ]
 
 **Saída:**
 
-![Screenshot 2024-05-11 at 09.26.43.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/45fe079b-fd18-4b33-9c8c-690c39829601/ce923aca-4990-4393-a569-05582ee24d8a/Screenshot_2024-05-11_at_09.26.43.png)
-
+                                                                                                        ![Fraude](photos/detect01.png)
 ---
 
 ## Fazendo o Upload da Carteira CNH (Imagem ou PDF)
@@ -136,16 +134,13 @@ Digite seu CPF no formato XXX.XXX.XXX-XX: input [   ]
 
 **DetectCNH solicita:** 
 
-![Screenshot 2024-05-11 at 09.29.39.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/45fe079b-fd18-4b33-9c8c-690c39829601/fa677caf-c47a-47f0-8068-1af40dc6d9d3/Screenshot_2024-05-11_at_09.29.39.png)
-
+                                                                                                          ![Fraude](photos/detecct02.png)
 **Saída:**
 
-![Screenshot 2024-05-11 at 09.30.28.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/45fe079b-fd18-4b33-9c8c-690c39829601/96e38f69-436d-4397-b0f8-7ad0c66df510/Screenshot_2024-05-11_at_09.30.28.png)
-
+                                                                                              ![Fraude](photos/detect04.png)
 **Atualização de Saída:**
 
-![Screenshot 2024-05-11 at 09.33.08.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/45fe079b-fd18-4b33-9c8c-690c39829601/e7cae7ca-4b58-4949-8475-8cd5e24aa1b9/Screenshot_2024-05-11_at_09.33.08.png)
-
+                                                                                                                    ![Fraude](photos/detect05.png)
 ---
 
 ## Validação da CNH
@@ -159,12 +154,10 @@ Digite seu CPF no formato XXX.XXX.XXX-XX: input [   ]
 
 **DetectCNH extrai os dados:**
 
-![Screenshot 2024-05-11 at 09.35.23.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/45fe079b-fd18-4b33-9c8c-690c39829601/be19e767-9975-4be9-a90c-69f556ad9cf8/Screenshot_2024-05-11_at_09.35.23.png)
-
+![Fraude](photos/detect06.png)
 **DetectCNH valida e gera um resumo do condutor:**
 
-![Screenshot 2024-05-11 at 09.47.46.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/45fe079b-fd18-4b33-9c8c-690c39829601/dffe3ffc-1139-473a-b802-18201dc995a2/Screenshot_2024-05-11_at_09.47.46.png)
-
+![Fraude](photos/detect07.png)
 ### - CASO OK
 
 - Aqui foi utilizada uma CNH real, porém os dados da .json foram modificados para manter a segurança do proprietário da CNH.
